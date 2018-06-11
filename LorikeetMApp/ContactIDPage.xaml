@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LorikeetMApp.ContactIDPage">
+    <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <Label Text="Type" />
+        <Entry Text="{Binding ContactType}" />
+        <Label Text="Name" />
+        <Entry Text="{Binding ContactName}" />
+        <Label Text="Address" />
+        <Entry Text="{Binding ContactAddress}"/>
+        <Label Text="Phone"/>
+        <Entry Text="{Binding ContactPhone}"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LorikeetMApp.MemberPage">
+    <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <Label Text="First Name" />
+        <Entry Text="{Binding FirstName}" />
+        <Label Text="Surname"/>
+        <Entry Text="{Binding Surname}" />
+        <Label Text="Phone Number" />
+        <Entry Text="{Binding TelephoneNumber}" />
+        <Label Text="Mobile Number"/>
+        <Entry Text="{Binding MobileNumber}"/>
+        <Button Text="Contacts" Clicked="OnContactClicked" />
+    </StackLayout>
+</ContentPage>
