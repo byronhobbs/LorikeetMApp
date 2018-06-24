@@ -11,6 +11,7 @@
         <Entry Text="{Binding TelephoneNumber}" />
         <Label Text="Mobile Number"/>
         <Entry Text="{Binding MobileNumber}"/>
+        <Button Text="Take Picture" Clicked="OnTakePictureClicked" />
         <Button Text="Contacts" Clicked="OnContactClicked" />
     </StackLayout>
 </ContentPage>

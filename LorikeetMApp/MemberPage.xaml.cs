@@ -18,5 +18,12 @@ namespace LorikeetMApp
          
 			await Navigation.PushAsync(new ContactPage(member.MemberId));
 		}
+
+        async void OnTakePictureClicked(object sender, EventArgs e)
+        {
+            ModelsLinq.MemberSQLite member = (ModelsLinq.MemberSQLite)this.BindingContext;
+
+            await Navigation.PushAsync(new TakePicture(member.MemberId));
+        }
     }
 }

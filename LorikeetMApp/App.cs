@@ -8,8 +8,7 @@ namespace LorikeetMApp
 {
 	public class App : Application
 	{
-		
-		public int ResumeMemberId { get; set; }
+        public int ResumeMemberId { get; set; }
 		public int ResumeContactId { get; set; }
 
 		public App()
