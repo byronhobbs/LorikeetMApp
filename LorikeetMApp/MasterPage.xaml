@@ -10,22 +10,15 @@
         <ListView x:Name="listView">
            <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Members" IconSource="contacts.png" TargetType="{x:Type local:MembersPage}" />
-                    <local:MasterPageItem Title="Update" IconSource="todo.png" TargetType="{x:Type local:UpdatePage}" />
+                    <local:MasterPageItem Title="Members" TargetType="{x:Type local:MembersPage}" />
+                    <local:MasterPageItem Title="Update" TargetType="{x:Type local:UpdatePage}" />
                     <local:MasterPageItem Title="Change Login" TargetType="{x:Type local:CreateAccountPage}" />
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="5,10">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="30"/>
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Image Source="{Binding IconSource}" />
-                            <Label Grid.Column="1" Text="{Binding Title}" />
-                        </Grid>
+                            <Label Text="{Binding Title}" />
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

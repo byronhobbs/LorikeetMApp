@@ -9,5 +9,6 @@ namespace LorikeetMApp.Data
 		Task<string> LoginAsync(string userName, string password);
 		Task<List<LorikeetMApp.Models.Member>> RefreshMemberDataAsync(string access_token);
 		Task<List<LorikeetMApp.Models.Contact>> RefreshContactDataAsync(string access_token);
+        Task<string> DownloadImageFileAsync(string file, string pathToSave); 
 	}
 }

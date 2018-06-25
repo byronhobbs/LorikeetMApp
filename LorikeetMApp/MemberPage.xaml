@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="LorikeetMApp.MemberPage">
     <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+        <Image x:Name="MemberImage" Source="{Binding memberImage}" WidthRequest="150" HeightRequest="150" />
         <Label Text="First Name" />
         <Entry Text="{Binding FirstName}" />
         <Label Text="Surname"/>

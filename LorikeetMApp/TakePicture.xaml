@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LorikeetMApp.TakePicture">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="LorikeetMApp.TakePicture">
     <ContentPage.Content>
         <StackLayout Spacing="10" Padding="10">
               <Button x:Name="takePhoto" Text="Take Photo"/>
               <Button x:Name="pickPhoto" Text="Pick Photo"/>
-              <Image x:Name="image"/>
+              <Button x:Name="uploadPhoto" Text="Upload Photo" IsVisible="false"/>
+              <Image x:Name="image" HeightRequest="150" WidthRequest="150"/>
+              <ProgressBar x:Name="progress" Progress="0.0" IsVisible="False" />
+              <Button x:Name="downloadPhoto" Text="Download Photo"/>
+              <Button x:Name="okButton" Text="OK"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -24,5 +24,10 @@ namespace LorikeetMApp.Data
 			string access_token = await restService.LoginAsync(Constants.Username, Constants.Password);
 			return await restService.RefreshContactDataAsync(access_token);
 		}
+
+        public async Task<string> DownloadImageFileAsync(string file, string pathToSave)
+        {
+            return await restService.DownloadImageFileAsync(file, pathToSave);
+        }
     }
 }

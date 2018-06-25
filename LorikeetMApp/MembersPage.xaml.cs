@@ -19,13 +19,13 @@ namespace LorikeetMApp
         public MembersPage()
         {
             InitializeComponent();
-
-			database = Data.MemberDatabase.Create(databasePath);
         }
         
 		protected override async void OnAppearing()
         {
             base.OnAppearing();
+
+            database = Data.MemberDatabase.Create(databasePath);
 
             try
             {

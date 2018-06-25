@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Threading.Tasks;
-using Plugin.Fingerprint;
-using Plugin.Fingerprint.Abstractions;
+﻿using Plugin.Fingerprint;
 using Xamarin.Forms;
 
 namespace LorikeetMApp

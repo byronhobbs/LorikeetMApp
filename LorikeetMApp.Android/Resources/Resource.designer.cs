@@ -1653,6 +1653,7 @@ namespace LorikeetMApp.Droid
 			global::FormsPinView.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LorikeetMApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::FormsPinView.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LorikeetMApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::FormsPinView.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LorikeetMApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::ModernHttpClient.Resource.String.library_name = global::LorikeetMApp.Droid.Resource.String.library_name;
 			global::Plugin.Fingerprint.Resource.Drawable.fingerprint_white = global::LorikeetMApp.Droid.Resource.Drawable.fingerprint_white;
 			global::Plugin.Fingerprint.Resource.Id.fingerprint_btnCancel = global::LorikeetMApp.Droid.Resource.Id.fingerprint_btnCancel;
 			global::Plugin.Fingerprint.Resource.Id.fingerprint_btnFallback = global::LorikeetMApp.Droid.Resource.Id.fingerprint_btnFallback;
@@ -1660,6 +1661,8 @@ namespace LorikeetMApp.Droid
 			global::Plugin.Fingerprint.Resource.Id.fingerprint_txtHelp = global::LorikeetMApp.Droid.Resource.Id.fingerprint_txtHelp;
 			global::Plugin.Fingerprint.Resource.Id.fingerprint_txtReason = global::LorikeetMApp.Droid.Resource.Id.fingerprint_txtReason;
 			global::Plugin.Fingerprint.Resource.Layout.FingerprintDialog = global::LorikeetMApp.Droid.Resource.Layout.FingerprintDialog;
+			global::Plugin.NetStandardStorage.Resource.String.ApplicationName = global::LorikeetMApp.Droid.Resource.String.ApplicationName;
+			global::Plugin.NetStandardStorage.Resource.String.Hello = global::LorikeetMApp.Droid.Resource.String.Hello;
 			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::LorikeetMApp.Droid.Resource.String.library_name;
 			global::Syncfusion.Android.DataForm.Resource.Drawable.GroupCollapse = global::LorikeetMApp.Droid.Resource.Drawable.GroupCollapse;
 			global::Syncfusion.Android.DataForm.Resource.Drawable.GroupExpander = global::LorikeetMApp.Droid.Resource.Drawable.GroupExpander;

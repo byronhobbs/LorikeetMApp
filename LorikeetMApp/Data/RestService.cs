@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using LorikeetMApp.Models;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using System.IO;
+using System.Net;
 
 namespace LorikeetMApp.Data
 {
@@ -94,5 +96,44 @@ namespace LorikeetMApp.Data
             
 			return Contacts;
 		}
-	}
+
+        public async Task<string> DownloadImageFileAsync(string file, string pathToSave)
+        {
+            Stream responseStream = null;
+            FileStream fileStream = null;
+            HttpResponseMessage response = null;
+
+            try
+            {
+                var uri = new Uri(string.Concat(Constants.DOWNLOAD_URL, file));
+
+                response = await client.GetAsync(uri);
+                if (response.IsSuccessStatusCode)
+                {
+                    responseStream = await response.Content.ReadAsStreamAsync();
+                    fileStream = new FileStream(pathToSave, FileMode.Create, FileAccess.Write, FileShare.None);
+
+                    byte[] buffer = new byte[1024];
+                    int length = responseStream.Read(buffer, 0, buffer.Length);
+                    while (length > 0)
+                    {
+                        fileStream.Write(buffer, 0, length);
+                        fileStream.Flush();
+                        length = responseStream.Read(buffer, 0, buffer.Length);
+                    }
+                }
+                else return "Couldn't Download file";
+            }
+            catch (WebException ex)
+            {
+                return ex.Message + " - " + response.ReasonPhrase;
+            }
+            finally
+            {
+                if (fileStream != null) fileStream.Close();
+                if (responseStream != null) responseStream.Close();
+            }
+            return "worked";
+        }
+    }
 }
