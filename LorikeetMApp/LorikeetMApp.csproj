@@ -6,16 +6,9 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
-    <PackageReference Include="Syncfusion.Xamarin.Core" Version="16.1.0.37" />
-    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="16.1.0.37" />
-    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="16.1.0.37" />
-    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="16.1.0.37" />
-    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.1.0.37" />
-    <PackageReference Include="Syncfusion.Xamarin.SfProgressBar" Version="16.1.0.37" />
     <PackageReference Include="Plugin.Fingerprint" Version="1.4.7" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
     <PackageReference Include="Microsoft.CSharp" Version="4.5.0" />
-    <PackageReference Include="FormsPinView" Version="1.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
@@ -25,6 +18,12 @@
     <PackageReference Include="System.Buffers" Version="4.5.0" />
     <PackageReference Include="Plugin.FileUploader" Version="1.4.0" />
     <PackageReference Include="Plugin.NetStandardStorage" Version="1.0.5" />
+    <PackageReference Include="FormsPinView" Version="1.1.1" />
+    <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="16.2.0.41" />
+    <PackageReference Include="Syncfusion.Licensing" Version="16.2.0.41" />
+    <PackageReference Include="Syncfusion.Xamarin.DataSource" Version="16.2.0.41" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="16.2.0.41" />
+    <PackageReference Include="Syncfusion.Xamarin.GridCommon" Version="16.2.0.41" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
@@ -48,23 +47,13 @@
     <Compile Remove="LoginModalPage.cs" />
     <Compile Remove="MenuPage.xaml.cs" />
     <Compile Remove="Models\ImageModel.cs" />
+    <Compile Remove="CustomComparer.cs" />
+    <Compile Remove="CustomGroupComparer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="MasterPage.xaml.cs">
-      <DependentUpon>MasterPage.xaml</DependentUpon>
-    </Compile>
     <Compile Update="UpdatePage.xaml.cs">
       <DependentUpon>UpdatePage.xaml</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Remove="LoginModalPage.xaml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Remove="EmptyTextFile.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Mono.Android">

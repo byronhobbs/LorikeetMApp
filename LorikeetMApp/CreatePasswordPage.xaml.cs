@@ -18,7 +18,7 @@ namespace LorikeetMApp
             Helpers.Settings.typeOfLogin = "Password";
             Helpers.Settings.Password = Password.Text;
             // load main page
-            Application.Current.MainPage = new MainPage();
+            Application.Current.MainPage = new MainMenu();
         }
     }
 }

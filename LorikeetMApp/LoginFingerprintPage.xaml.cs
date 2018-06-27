@@ -24,7 +24,7 @@ namespace LorikeetMApp
 
                 if (auth.Authenticated)
                 {
-                    Application.Current.MainPage = new MainPage();
+                    Application.Current.MainPage = new MainMenu();
                 }
                 else
                 {

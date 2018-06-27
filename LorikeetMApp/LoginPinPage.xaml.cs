@@ -16,7 +16,7 @@ namespace LorikeetMApp
 
             viewModel.PinViewModel.Success += (object sender, EventArgs e) =>
             {
-                Application.Current.MainPage = new MainPage();
+                Application.Current.MainPage = new MainMenu();
             };
             base.BindingContext = viewModel;
         }

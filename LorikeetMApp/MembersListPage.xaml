@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:local="clr-namespace:LorikeetMApp;assembly=LorikeetMApp"
              xmlns:sync="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
-             x:Class="LorikeetMApp.MembersPage"
+             x:Class="LorikeetMApp.MembersListPage"
              Title="Members">
-    <ContentPage.Resources>
+  <ContentPage.Resources>
     <ResourceDictionary>
       <DataTemplate x:Name="HeaderTemplate" x:Key="HeaderTemplate">
         <Grid BackgroundColor="#4CA1FE" HeightRequest="45">

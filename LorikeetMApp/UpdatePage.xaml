@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:progressBar="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              x:Class="LorikeetMApp.UpdatePage"
              Title="Update Page">
+    <ContentPage.Content>
         <Grid VerticalOptions="Center"
               HorizontalOptions="Center">
             <Grid.RowDefinitions>
-                <RowDefinition Height="130"/>
-                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <StackLayout x:Name="child1" Grid.Row="0"/>
             <StackLayout x:Name="child2" Grid.Row="1"/>
+            <StackLayout x:Name="child3" Grid.Row="2"/>
         </Grid>
+    </ContentPage.Content>
 </ContentPage>

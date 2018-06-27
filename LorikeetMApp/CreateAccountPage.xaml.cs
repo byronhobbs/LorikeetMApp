@@ -27,6 +27,8 @@ namespace LorikeetMApp
             InitializeComponent();
 
             this.canCancel = false;
+
+            CancelButton.IsVisible = false;
         }
 
         void HandlePIN_Clicked(object sender, System.EventArgs e)
@@ -46,7 +48,7 @@ namespace LorikeetMApp
 
         void HandleClose_Clicked(object sender, System.EventArgs e)
         {
-            Application.Current.MainPage = new MainPage();
+            Application.Current.MainPage = new MainMenu();
         }
     }
 }

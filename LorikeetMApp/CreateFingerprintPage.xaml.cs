@@ -29,7 +29,7 @@ namespace LorikeetMApp
                     await DisplayAlert("Success", "You have enabled the Fingerprint ID", "OK");
                     Helpers.Settings.IsInitialized = true;
                     Helpers.Settings.typeOfLogin = "Fingerprint";
-                    Application.Current.MainPage = new MainPage();
+                    Application.Current.MainPage = new MainMenu();
                 }
                 else
                 {

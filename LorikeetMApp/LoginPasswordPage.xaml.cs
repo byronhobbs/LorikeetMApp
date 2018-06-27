@@ -17,7 +17,7 @@ namespace LorikeetMApp
 
             if (Password.Text.Equals(Helpers.Settings.Password))
             {
-                Application.Current.MainPage = new MainPage();
+                Application.Current.MainPage = new MainMenu();
             }
             else
             {

@@ -1663,79 +1663,9 @@ namespace LorikeetMApp.Droid
 			global::Plugin.Fingerprint.Resource.Layout.FingerprintDialog = global::LorikeetMApp.Droid.Resource.Layout.FingerprintDialog;
 			global::Plugin.NetStandardStorage.Resource.String.ApplicationName = global::LorikeetMApp.Droid.Resource.String.ApplicationName;
 			global::Plugin.NetStandardStorage.Resource.String.Hello = global::LorikeetMApp.Droid.Resource.String.Hello;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::LorikeetMApp.Droid.Resource.String.library_name;
-			global::Syncfusion.Android.DataForm.Resource.Drawable.GroupCollapse = global::LorikeetMApp.Droid.Resource.Drawable.GroupCollapse;
-			global::Syncfusion.Android.DataForm.Resource.Drawable.GroupExpander = global::LorikeetMApp.Droid.Resource.Drawable.GroupExpander;
-			global::Syncfusion.Android.DataForm.Resource.Layout.Spinner_item = global::LorikeetMApp.Droid.Resource.Layout.Spinner_item;
-			global::Syncfusion.Android.DataForm.Resource.String.ApplicationName = global::LorikeetMApp.Droid.Resource.String.ApplicationName;
-			global::Syncfusion.Android.DataForm.Resource.String.Hello = global::LorikeetMApp.Droid.Resource.String.Hello;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.animationDuration = global::LorikeetMApp.Droid.Resource.Attribute.animationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.cornerRadius = global::LorikeetMApp.Droid.Resource.Attribute.cornerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.endAngle = global::LorikeetMApp.Droid.Resource.Attribute.endAngle;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.gapWidth = global::LorikeetMApp.Droid.Resource.Attribute.gapWidth;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indeterminateAnimationDuration = global::LorikeetMApp.Droid.Resource.Attribute.indeterminateAnimationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorInnerRadius = global::LorikeetMApp.Droid.Resource.Attribute.indicatorInnerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorOuterRadius = global::LorikeetMApp.Droid.Resource.Attribute.indicatorOuterRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorPaddingBottom = global::LorikeetMApp.Droid.Resource.Attribute.indicatorPaddingBottom;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorPaddingLeft = global::LorikeetMApp.Droid.Resource.Attribute.indicatorPaddingLeft;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorPaddingRight = global::LorikeetMApp.Droid.Resource.Attribute.indicatorPaddingRight;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.indicatorPaddingTop = global::LorikeetMApp.Droid.Resource.Attribute.indicatorPaddingTop;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.isIndeterminate = global::LorikeetMApp.Droid.Resource.Attribute.isIndeterminate;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.maximum = global::LorikeetMApp.Droid.Resource.Attribute.maximum;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.minimum = global::LorikeetMApp.Droid.Resource.Attribute.minimum;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.progress = global::LorikeetMApp.Droid.Resource.Attribute.progress;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.progressColor = global::LorikeetMApp.Droid.Resource.Attribute.progressColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.secondaryAnimationDuration = global::LorikeetMApp.Droid.Resource.Attribute.secondaryAnimationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.secondaryProgress = global::LorikeetMApp.Droid.Resource.Attribute.secondaryProgress;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.secondaryProgressColor = global::LorikeetMApp.Droid.Resource.Attribute.secondaryProgressColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.segmentCount = global::LorikeetMApp.Droid.Resource.Attribute.segmentCount;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.showProgressValue = global::LorikeetMApp.Droid.Resource.Attribute.showProgressValue;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.startAngle = global::LorikeetMApp.Droid.Resource.Attribute.startAngle;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.trackColor = global::LorikeetMApp.Droid.Resource.Attribute.trackColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.trackHeight = global::LorikeetMApp.Droid.Resource.Attribute.trackHeight;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.trackInnerRadius = global::LorikeetMApp.Droid.Resource.Attribute.trackInnerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Attribute.trackOuterRadius = global::LorikeetMApp.Droid.Resource.Attribute.trackOuterRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
-			global::Syncfusion.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
-			global::Syncfusion.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
-			global::Syncfusion.Android.ProgressBar.Resource.Id.sfprogressbar_progress = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_progress;
-			global::Syncfusion.Android.ProgressBar.Resource.Id.sfprogressbar_secondary_progress = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_secondary_progress;
-			global::Syncfusion.Android.ProgressBar.Resource.Id.sfprogressbar_track = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_track;
-			global::Syncfusion.Android.ProgressBar.Resource.String.library_name = global::LorikeetMApp.Droid.Resource.String.library_name;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_animationDuration = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_animationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_cornerRadius = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_cornerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_endAngle = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_endAngle;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_gapWidth = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_gapWidth;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indeterminateAnimationDuration = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indeterminateAnimationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorInnerRadius = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorInnerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorOuterRadius = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorOuterRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorPaddingBottom = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorPaddingBottom;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorPaddingLeft = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorPaddingLeft;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorPaddingRight = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorPaddingRight;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_indicatorPaddingTop = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_indicatorPaddingTop;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_isIndeterminate = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_isIndeterminate;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_maximum = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_maximum;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_minimum = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_minimum;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_progress = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_progress;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_progressColor = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_progressColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_secondaryAnimationDuration = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_secondaryAnimationDuration;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_secondaryProgress = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_secondaryProgress;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_secondaryProgressColor = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_secondaryProgressColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_segmentCount = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_segmentCount;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_showProgressValue = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_showProgressValue;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_startAngle = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_startAngle;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_trackColor = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_trackColor;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_trackHeight = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_trackHeight;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_trackInnerRadius = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_trackInnerRadius;
-			global::Syncfusion.Android.ProgressBar.Resource.Styleable.SfProgressBar_trackOuterRadius = global::LorikeetMApp.Droid.Resource.Styleable.SfProgressBar_trackOuterRadius;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::LorikeetMApp.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_progress = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_progress;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_secondary_progress = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_secondary_progress;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_track = global::LorikeetMApp.Droid.Resource.Id.sfprogressbar_track;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.String.library_name = global::LorikeetMApp.Droid.Resource.String.library_name;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::LorikeetMApp.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::LorikeetMApp.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::LorikeetMApp.Droid.Resource.String.Load_More;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::LorikeetMApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -1944,9 +1874,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f0100e8
 			public const int alphabeticModifiers = 2130772200;
-			
-			// aapt resource value: 0x7f010189
-			public const int animationDuration = 2130772361;
 			
 			// aapt resource value: 0x7f0100e1
 			public const int arrowHeadLength = 2130772193;
@@ -2176,9 +2103,6 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0100be
 			public const int controlBackground = 2130772158;
 			
-			// aapt resource value: 0x7f010193
-			public const int cornerRadius = 2130772371;
-			
 			// aapt resource value: 0x7f01016e
 			public const int counterEnabled = 2130772334;
 			
@@ -2241,9 +2165,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f01004c
 			public const int elevation = 2130772044;
-			
-			// aapt resource value: 0x7f010195
-			public const int endAngle = 2130772373;
 			
 			// aapt resource value: 0x7f01016c
 			public const int errorEnabled = 2130772332;
@@ -2335,9 +2256,6 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0100e0
 			public const int gapBetweenBars = 2130772192;
 			
-			// aapt resource value: 0x7f01018f
-			public const int gapWidth = 2130772367;
-			
 			// aapt resource value: 0x7f0100fd
 			public const int goIcon = 2130772221;
 			
@@ -2380,38 +2298,14 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0100a3
 			public const int imageButtonStyle = 2130772131;
 			
-			// aapt resource value: 0x7f010188
-			public const int indeterminateAnimationDuration = 2130772360;
-			
 			// aapt resource value: 0x7f010042
 			public const int indeterminateProgressStyle = 2130772034;
-			
-			// aapt resource value: 0x7f01019a
-			public const int indicatorInnerRadius = 2130772378;
-			
-			// aapt resource value: 0x7f010199
-			public const int indicatorOuterRadius = 2130772377;
-			
-			// aapt resource value: 0x7f01018d
-			public const int indicatorPaddingBottom = 2130772365;
-			
-			// aapt resource value: 0x7f01018a
-			public const int indicatorPaddingLeft = 2130772362;
-			
-			// aapt resource value: 0x7f01018b
-			public const int indicatorPaddingRight = 2130772363;
-			
-			// aapt resource value: 0x7f01018c
-			public const int indicatorPaddingTop = 2130772364;
 			
 			// aapt resource value: 0x7f01004f
 			public const int initialActivityCount = 2130772047;
 			
 			// aapt resource value: 0x7f010157
 			public const int insetForeground = 2130772311;
-			
-			// aapt resource value: 0x7f010187
-			public const int isIndeterminate = 2130772359;
 			
 			// aapt resource value: 0x7f010032
 			public const int isLightTheme = 2130772018;
@@ -2536,9 +2430,6 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f010118
 			public const int maxButtonHeight = 2130772248;
 			
-			// aapt resource value: 0x7f010186
-			public const int maximum = 2130772358;
-			
 			// aapt resource value: 0x7f0100e5
 			public const int measureWithLargestChild = 2130772197;
 			
@@ -2583,9 +2474,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f010151
 			public const int menu = 2130772305;
-			
-			// aapt resource value: 0x7f010185
-			public const int minimum = 2130772357;
 			
 			// aapt resource value: 0x7f010053
 			public const int multiChoiceItemLayout = 2130772051;
@@ -2659,17 +2547,11 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f01014c
 			public const int pressedTranslationZ = 2130772300;
 			
-			// aapt resource value: 0x7f010181
-			public const int progress = 2130772353;
-			
 			// aapt resource value: 0x7f010043
 			public const int progressBarPadding = 2130772035;
 			
 			// aapt resource value: 0x7f010041
 			public const int progressBarStyle = 2130772033;
-			
-			// aapt resource value: 0x7f010182
-			public const int progressColor = 2130772354;
 			
 			// aapt resource value: 0x7f010103
 			public const int queryBackground = 2130772227;
@@ -2716,20 +2598,8 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0100a7
 			public const int searchViewStyle = 2130772135;
 			
-			// aapt resource value: 0x7f010192
-			public const int secondaryAnimationDuration = 2130772370;
-			
-			// aapt resource value: 0x7f010190
-			public const int secondaryProgress = 2130772368;
-			
-			// aapt resource value: 0x7f010191
-			public const int secondaryProgressColor = 2130772369;
-			
 			// aapt resource value: 0x7f0100d2
 			public const int seekBarStyle = 2130772178;
-			
-			// aapt resource value: 0x7f01018e
-			public const int segmentCount = 2130772366;
 			
 			// aapt resource value: 0x7f010097
 			public const int selectableItemBackground = 2130772119;
@@ -2742,9 +2612,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f0100e6
 			public const int showDividers = 2130772198;
-			
-			// aapt resource value: 0x7f010196
-			public const int showProgressValue = 2130772374;
 			
 			// aapt resource value: 0x7f01010f
 			public const int showText = 2130772239;
@@ -2775,9 +2642,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f010003
 			public const int stackFromEnd = 2130771971;
-			
-			// aapt resource value: 0x7f010194
-			public const int startAngle = 2130772372;
 			
 			// aapt resource value: 0x7f0100f5
 			public const int state_above_anchor = 2130772213;
@@ -2994,18 +2858,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 0x7f010107
 			public const int track = 2130772231;
-			
-			// aapt resource value: 0x7f010183
-			public const int trackColor = 2130772355;
-			
-			// aapt resource value: 0x7f010184
-			public const int trackHeight = 2130772356;
-			
-			// aapt resource value: 0x7f010198
-			public const int trackInnerRadius = 2130772376;
-			
-			// aapt resource value: 0x7f010197
-			public const int trackOuterRadius = 2130772375;
 			
 			// aapt resource value: 0x7f010108
 			public const int trackTint = 2130772232;
@@ -4175,26 +4027,26 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020138
-			public const int avd_hide_password_1 = 2130837816;
+			// aapt resource value: 0x7f020133
+			public const int avd_hide_password_1 = 2130837811;
 			
-			// aapt resource value: 0x7f020139
-			public const int avd_hide_password_2 = 2130837817;
+			// aapt resource value: 0x7f020134
+			public const int avd_hide_password_2 = 2130837812;
 			
-			// aapt resource value: 0x7f02013a
-			public const int avd_hide_password_3 = 2130837818;
+			// aapt resource value: 0x7f020135
+			public const int avd_hide_password_3 = 2130837813;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f02013b
-			public const int avd_show_password_1 = 2130837819;
+			// aapt resource value: 0x7f020136
+			public const int avd_show_password_1 = 2130837814;
 			
-			// aapt resource value: 0x7f02013c
-			public const int avd_show_password_2 = 2130837820;
+			// aapt resource value: 0x7f020137
+			public const int avd_show_password_2 = 2130837815;
 			
-			// aapt resource value: 0x7f02013d
-			public const int avd_show_password_3 = 2130837821;
+			// aapt resource value: 0x7f020138
+			public const int avd_show_password_3 = 2130837816;
 			
 			// aapt resource value: 0x7f020055
 			public const int bkg_roundedview = 2130837589;
@@ -4221,661 +4073,646 @@ namespace LorikeetMApp.Droid
 			public const int fingerprint_white = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int GroupCollapse = 2130837597;
+			public const int ic_audiotrack_dark = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int GroupExpander = 2130837598;
+			public const int ic_audiotrack_light = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_audiotrack_dark = 2130837599;
+			public const int ic_dialog_close_dark = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_audiotrack_light = 2130837600;
+			public const int ic_dialog_close_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_dialog_close_dark = 2130837601;
+			public const int ic_group_collapse_00 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_dialog_close_light = 2130837602;
+			public const int ic_group_collapse_01 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_group_collapse_00 = 2130837603;
+			public const int ic_group_collapse_02 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_group_collapse_01 = 2130837604;
+			public const int ic_group_collapse_03 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_group_collapse_02 = 2130837605;
+			public const int ic_group_collapse_04 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_group_collapse_03 = 2130837606;
+			public const int ic_group_collapse_05 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_group_collapse_04 = 2130837607;
+			public const int ic_group_collapse_06 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_group_collapse_05 = 2130837608;
+			public const int ic_group_collapse_07 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_group_collapse_06 = 2130837609;
+			public const int ic_group_collapse_08 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_group_collapse_07 = 2130837610;
+			public const int ic_group_collapse_09 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_group_collapse_08 = 2130837611;
+			public const int ic_group_collapse_10 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_group_collapse_09 = 2130837612;
+			public const int ic_group_collapse_11 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_group_collapse_10 = 2130837613;
+			public const int ic_group_collapse_12 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_group_collapse_11 = 2130837614;
+			public const int ic_group_collapse_13 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_group_collapse_12 = 2130837615;
+			public const int ic_group_collapse_14 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_group_collapse_13 = 2130837616;
+			public const int ic_group_collapse_15 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_group_collapse_14 = 2130837617;
+			public const int ic_group_expand_00 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_group_collapse_15 = 2130837618;
+			public const int ic_group_expand_01 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_group_expand_00 = 2130837619;
+			public const int ic_group_expand_02 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_group_expand_01 = 2130837620;
+			public const int ic_group_expand_03 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_group_expand_02 = 2130837621;
+			public const int ic_group_expand_04 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_group_expand_03 = 2130837622;
+			public const int ic_group_expand_05 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_group_expand_04 = 2130837623;
+			public const int ic_group_expand_06 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_group_expand_05 = 2130837624;
+			public const int ic_group_expand_07 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_group_expand_06 = 2130837625;
+			public const int ic_group_expand_08 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_group_expand_07 = 2130837626;
+			public const int ic_group_expand_09 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_group_expand_08 = 2130837627;
+			public const int ic_group_expand_10 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_group_expand_09 = 2130837628;
+			public const int ic_group_expand_11 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_group_expand_10 = 2130837629;
+			public const int ic_group_expand_12 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_group_expand_11 = 2130837630;
+			public const int ic_group_expand_13 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_group_expand_12 = 2130837631;
+			public const int ic_group_expand_14 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_group_expand_13 = 2130837632;
+			public const int ic_group_expand_15 = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_group_expand_14 = 2130837633;
+			public const int ic_media_pause_dark = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_group_expand_15 = 2130837634;
+			public const int ic_media_pause_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_pause_dark = 2130837635;
+			public const int ic_media_play_dark = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_pause_light = 2130837636;
+			public const int ic_media_play_light = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_play_dark = 2130837637;
+			public const int ic_media_stop_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_play_light = 2130837638;
+			public const int ic_media_stop_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_media_stop_dark = 2130837639;
+			public const int ic_mr_button_connected_00_dark = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_media_stop_light = 2130837640;
+			public const int ic_mr_button_connected_00_light = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_mr_button_connected_00_dark = 2130837641;
+			public const int ic_mr_button_connected_01_dark = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_mr_button_connected_00_light = 2130837642;
+			public const int ic_mr_button_connected_01_light = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_mr_button_connected_01_dark = 2130837643;
+			public const int ic_mr_button_connected_02_dark = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_mr_button_connected_01_light = 2130837644;
+			public const int ic_mr_button_connected_02_light = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_mr_button_connected_02_dark = 2130837645;
+			public const int ic_mr_button_connected_03_dark = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_mr_button_connected_02_light = 2130837646;
+			public const int ic_mr_button_connected_03_light = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_mr_button_connected_03_dark = 2130837647;
+			public const int ic_mr_button_connected_04_dark = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_mr_button_connected_03_light = 2130837648;
+			public const int ic_mr_button_connected_04_light = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_mr_button_connected_04_dark = 2130837649;
+			public const int ic_mr_button_connected_05_dark = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_mr_button_connected_04_light = 2130837650;
+			public const int ic_mr_button_connected_05_light = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_mr_button_connected_05_dark = 2130837651;
+			public const int ic_mr_button_connected_06_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_mr_button_connected_05_light = 2130837652;
+			public const int ic_mr_button_connected_06_light = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_mr_button_connected_06_dark = 2130837653;
+			public const int ic_mr_button_connected_07_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_mr_button_connected_06_light = 2130837654;
+			public const int ic_mr_button_connected_07_light = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_mr_button_connected_07_dark = 2130837655;
+			public const int ic_mr_button_connected_08_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_mr_button_connected_07_light = 2130837656;
+			public const int ic_mr_button_connected_08_light = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_mr_button_connected_08_dark = 2130837657;
+			public const int ic_mr_button_connected_09_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_mr_button_connected_08_light = 2130837658;
+			public const int ic_mr_button_connected_09_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_mr_button_connected_09_dark = 2130837659;
+			public const int ic_mr_button_connected_10_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_mr_button_connected_09_light = 2130837660;
+			public const int ic_mr_button_connected_10_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_mr_button_connected_10_dark = 2130837661;
+			public const int ic_mr_button_connected_11_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_mr_button_connected_10_light = 2130837662;
+			public const int ic_mr_button_connected_11_light = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_mr_button_connected_11_dark = 2130837663;
+			public const int ic_mr_button_connected_12_dark = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_mr_button_connected_11_light = 2130837664;
+			public const int ic_mr_button_connected_12_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_mr_button_connected_12_dark = 2130837665;
+			public const int ic_mr_button_connected_13_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_mr_button_connected_12_light = 2130837666;
+			public const int ic_mr_button_connected_13_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_mr_button_connected_13_dark = 2130837667;
+			public const int ic_mr_button_connected_14_dark = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_mr_button_connected_13_light = 2130837668;
+			public const int ic_mr_button_connected_14_light = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int ic_mr_button_connected_14_dark = 2130837669;
+			public const int ic_mr_button_connected_15_dark = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int ic_mr_button_connected_14_light = 2130837670;
+			public const int ic_mr_button_connected_15_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int ic_mr_button_connected_15_dark = 2130837671;
+			public const int ic_mr_button_connected_16_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int ic_mr_button_connected_15_light = 2130837672;
+			public const int ic_mr_button_connected_16_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int ic_mr_button_connected_16_dark = 2130837673;
+			public const int ic_mr_button_connected_17_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int ic_mr_button_connected_16_light = 2130837674;
+			public const int ic_mr_button_connected_17_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int ic_mr_button_connected_17_dark = 2130837675;
+			public const int ic_mr_button_connected_18_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int ic_mr_button_connected_17_light = 2130837676;
+			public const int ic_mr_button_connected_18_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int ic_mr_button_connected_18_dark = 2130837677;
+			public const int ic_mr_button_connected_19_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int ic_mr_button_connected_18_light = 2130837678;
+			public const int ic_mr_button_connected_19_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int ic_mr_button_connected_19_dark = 2130837679;
+			public const int ic_mr_button_connected_20_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int ic_mr_button_connected_19_light = 2130837680;
+			public const int ic_mr_button_connected_20_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_20_dark = 2130837681;
+			public const int ic_mr_button_connected_21_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_20_light = 2130837682;
+			public const int ic_mr_button_connected_21_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_21_dark = 2130837683;
+			public const int ic_mr_button_connected_22_dark = 2130837683;
 			
 			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_21_light = 2130837684;
+			public const int ic_mr_button_connected_22_light = 2130837684;
 			
 			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_22_dark = 2130837685;
+			public const int ic_mr_button_connected_23_dark = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_22_light = 2130837686;
+			public const int ic_mr_button_connected_23_light = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_23_dark = 2130837687;
+			public const int ic_mr_button_connected_24_dark = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_23_light = 2130837688;
+			public const int ic_mr_button_connected_24_light = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_24_dark = 2130837689;
+			public const int ic_mr_button_connected_25_dark = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_24_light = 2130837690;
+			public const int ic_mr_button_connected_25_light = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_25_dark = 2130837691;
+			public const int ic_mr_button_connected_26_dark = 2130837691;
 			
 			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_25_light = 2130837692;
+			public const int ic_mr_button_connected_26_light = 2130837692;
 			
 			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_26_dark = 2130837693;
+			public const int ic_mr_button_connected_27_dark = 2130837693;
 			
 			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_26_light = 2130837694;
+			public const int ic_mr_button_connected_27_light = 2130837694;
 			
 			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_27_dark = 2130837695;
+			public const int ic_mr_button_connected_28_dark = 2130837695;
 			
 			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_27_light = 2130837696;
+			public const int ic_mr_button_connected_28_light = 2130837696;
 			
 			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_28_dark = 2130837697;
+			public const int ic_mr_button_connected_29_dark = 2130837697;
 			
 			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_28_light = 2130837698;
+			public const int ic_mr_button_connected_29_light = 2130837698;
 			
 			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_29_dark = 2130837699;
+			public const int ic_mr_button_connected_30_dark = 2130837699;
 			
 			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_29_light = 2130837700;
+			public const int ic_mr_button_connected_30_light = 2130837700;
 			
 			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_30_dark = 2130837701;
+			public const int ic_mr_button_connecting_00_dark = 2130837701;
 			
 			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_30_light = 2130837702;
+			public const int ic_mr_button_connecting_00_light = 2130837702;
 			
 			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connecting_00_dark = 2130837703;
+			public const int ic_mr_button_connecting_01_dark = 2130837703;
 			
 			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connecting_00_light = 2130837704;
+			public const int ic_mr_button_connecting_01_light = 2130837704;
 			
 			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connecting_01_dark = 2130837705;
+			public const int ic_mr_button_connecting_02_dark = 2130837705;
 			
 			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connecting_01_light = 2130837706;
+			public const int ic_mr_button_connecting_02_light = 2130837706;
 			
 			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connecting_02_dark = 2130837707;
+			public const int ic_mr_button_connecting_03_dark = 2130837707;
 			
 			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connecting_02_light = 2130837708;
+			public const int ic_mr_button_connecting_03_light = 2130837708;
 			
 			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connecting_03_dark = 2130837709;
+			public const int ic_mr_button_connecting_04_dark = 2130837709;
 			
 			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connecting_03_light = 2130837710;
+			public const int ic_mr_button_connecting_04_light = 2130837710;
 			
 			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connecting_04_dark = 2130837711;
+			public const int ic_mr_button_connecting_05_dark = 2130837711;
 			
 			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connecting_04_light = 2130837712;
+			public const int ic_mr_button_connecting_05_light = 2130837712;
 			
 			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connecting_05_dark = 2130837713;
+			public const int ic_mr_button_connecting_06_dark = 2130837713;
 			
 			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connecting_05_light = 2130837714;
+			public const int ic_mr_button_connecting_06_light = 2130837714;
 			
 			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connecting_06_dark = 2130837715;
+			public const int ic_mr_button_connecting_07_dark = 2130837715;
 			
 			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connecting_06_light = 2130837716;
+			public const int ic_mr_button_connecting_07_light = 2130837716;
 			
 			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connecting_07_dark = 2130837717;
+			public const int ic_mr_button_connecting_08_dark = 2130837717;
 			
 			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connecting_07_light = 2130837718;
+			public const int ic_mr_button_connecting_08_light = 2130837718;
 			
 			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connecting_08_dark = 2130837719;
+			public const int ic_mr_button_connecting_09_dark = 2130837719;
 			
 			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connecting_08_light = 2130837720;
+			public const int ic_mr_button_connecting_09_light = 2130837720;
 			
 			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connecting_09_dark = 2130837721;
+			public const int ic_mr_button_connecting_10_dark = 2130837721;
 			
 			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connecting_09_light = 2130837722;
+			public const int ic_mr_button_connecting_10_light = 2130837722;
 			
 			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connecting_10_dark = 2130837723;
+			public const int ic_mr_button_connecting_11_dark = 2130837723;
 			
 			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connecting_10_light = 2130837724;
+			public const int ic_mr_button_connecting_11_light = 2130837724;
 			
 			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connecting_11_dark = 2130837725;
+			public const int ic_mr_button_connecting_12_dark = 2130837725;
 			
 			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connecting_11_light = 2130837726;
+			public const int ic_mr_button_connecting_12_light = 2130837726;
 			
 			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connecting_12_dark = 2130837727;
+			public const int ic_mr_button_connecting_13_dark = 2130837727;
 			
 			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connecting_12_light = 2130837728;
+			public const int ic_mr_button_connecting_13_light = 2130837728;
 			
 			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connecting_13_dark = 2130837729;
+			public const int ic_mr_button_connecting_14_dark = 2130837729;
 			
 			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connecting_13_light = 2130837730;
+			public const int ic_mr_button_connecting_14_light = 2130837730;
 			
 			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connecting_14_dark = 2130837731;
+			public const int ic_mr_button_connecting_15_dark = 2130837731;
 			
 			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connecting_14_light = 2130837732;
+			public const int ic_mr_button_connecting_15_light = 2130837732;
 			
 			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connecting_15_dark = 2130837733;
+			public const int ic_mr_button_connecting_16_dark = 2130837733;
 			
 			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connecting_15_light = 2130837734;
+			public const int ic_mr_button_connecting_16_light = 2130837734;
 			
 			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connecting_16_dark = 2130837735;
+			public const int ic_mr_button_connecting_17_dark = 2130837735;
 			
 			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connecting_16_light = 2130837736;
+			public const int ic_mr_button_connecting_17_light = 2130837736;
 			
 			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connecting_17_dark = 2130837737;
+			public const int ic_mr_button_connecting_18_dark = 2130837737;
 			
 			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connecting_17_light = 2130837738;
+			public const int ic_mr_button_connecting_18_light = 2130837738;
 			
 			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connecting_18_dark = 2130837739;
+			public const int ic_mr_button_connecting_19_dark = 2130837739;
 			
 			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connecting_18_light = 2130837740;
+			public const int ic_mr_button_connecting_19_light = 2130837740;
 			
 			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connecting_19_dark = 2130837741;
+			public const int ic_mr_button_connecting_20_dark = 2130837741;
 			
 			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connecting_19_light = 2130837742;
+			public const int ic_mr_button_connecting_20_light = 2130837742;
 			
 			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_20_dark = 2130837743;
+			public const int ic_mr_button_connecting_21_dark = 2130837743;
 			
 			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_20_light = 2130837744;
+			public const int ic_mr_button_connecting_21_light = 2130837744;
 			
 			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_21_dark = 2130837745;
+			public const int ic_mr_button_connecting_22_dark = 2130837745;
 			
 			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_21_light = 2130837746;
+			public const int ic_mr_button_connecting_22_light = 2130837746;
 			
 			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_22_dark = 2130837747;
+			public const int ic_mr_button_connecting_23_dark = 2130837747;
 			
 			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_22_light = 2130837748;
+			public const int ic_mr_button_connecting_23_light = 2130837748;
 			
 			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_23_dark = 2130837749;
+			public const int ic_mr_button_connecting_24_dark = 2130837749;
 			
 			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_23_light = 2130837750;
+			public const int ic_mr_button_connecting_24_light = 2130837750;
 			
 			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_24_dark = 2130837751;
+			public const int ic_mr_button_connecting_25_dark = 2130837751;
 			
 			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_24_light = 2130837752;
+			public const int ic_mr_button_connecting_25_light = 2130837752;
 			
 			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_25_dark = 2130837753;
+			public const int ic_mr_button_connecting_26_dark = 2130837753;
 			
 			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_25_light = 2130837754;
+			public const int ic_mr_button_connecting_26_light = 2130837754;
 			
 			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_26_dark = 2130837755;
+			public const int ic_mr_button_connecting_27_dark = 2130837755;
 			
 			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_26_light = 2130837756;
+			public const int ic_mr_button_connecting_27_light = 2130837756;
 			
 			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_27_dark = 2130837757;
+			public const int ic_mr_button_connecting_28_dark = 2130837757;
 			
 			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_27_light = 2130837758;
+			public const int ic_mr_button_connecting_28_light = 2130837758;
 			
 			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_28_dark = 2130837759;
+			public const int ic_mr_button_connecting_29_dark = 2130837759;
 			
 			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_28_light = 2130837760;
+			public const int ic_mr_button_connecting_29_light = 2130837760;
 			
 			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_29_dark = 2130837761;
+			public const int ic_mr_button_connecting_30_dark = 2130837761;
 			
 			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_29_light = 2130837762;
+			public const int ic_mr_button_connecting_30_light = 2130837762;
 			
 			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_30_dark = 2130837763;
+			public const int ic_mr_button_disabled_dark = 2130837763;
 			
 			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_30_light = 2130837764;
+			public const int ic_mr_button_disabled_light = 2130837764;
 			
 			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_disabled_dark = 2130837765;
+			public const int ic_mr_button_disconnected_dark = 2130837765;
 			
 			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_disabled_light = 2130837766;
+			public const int ic_mr_button_disconnected_light = 2130837766;
 			
 			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_disconnected_dark = 2130837767;
+			public const int ic_mr_button_grey = 2130837767;
 			
 			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_disconnected_light = 2130837768;
+			public const int ic_vol_type_speaker_dark = 2130837768;
 			
 			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_grey = 2130837769;
+			public const int ic_vol_type_speaker_group_dark = 2130837769;
 			
 			// aapt resource value: 0x7f02010a
-			public const int ic_vol_type_speaker_dark = 2130837770;
+			public const int ic_vol_type_speaker_group_light = 2130837770;
 			
 			// aapt resource value: 0x7f02010b
-			public const int ic_vol_type_speaker_group_dark = 2130837771;
+			public const int ic_vol_type_speaker_light = 2130837771;
 			
 			// aapt resource value: 0x7f02010c
-			public const int ic_vol_type_speaker_group_light = 2130837772;
+			public const int ic_vol_type_tv_dark = 2130837772;
 			
 			// aapt resource value: 0x7f02010d
-			public const int ic_vol_type_speaker_light = 2130837773;
+			public const int ic_vol_type_tv_light = 2130837773;
 			
 			// aapt resource value: 0x7f02010e
-			public const int ic_vol_type_tv_dark = 2130837774;
+			public const int img_circle = 2130837774;
 			
 			// aapt resource value: 0x7f02010f
-			public const int ic_vol_type_tv_light = 2130837775;
+			public const int img_circle_filled = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int img_circle = 2130837776;
+			public const int mr_button_connected_dark = 2130837776;
 			
 			// aapt resource value: 0x7f020111
-			public const int img_circle_filled = 2130837777;
+			public const int mr_button_connected_light = 2130837777;
 			
 			// aapt resource value: 0x7f020112
-			public const int mr_button_connected_dark = 2130837778;
+			public const int mr_button_connecting_dark = 2130837778;
 			
 			// aapt resource value: 0x7f020113
-			public const int mr_button_connected_light = 2130837779;
+			public const int mr_button_connecting_light = 2130837779;
 			
 			// aapt resource value: 0x7f020114
-			public const int mr_button_connecting_dark = 2130837780;
+			public const int mr_button_dark = 2130837780;
 			
 			// aapt resource value: 0x7f020115
-			public const int mr_button_connecting_light = 2130837781;
+			public const int mr_button_light = 2130837781;
 			
 			// aapt resource value: 0x7f020116
-			public const int mr_button_dark = 2130837782;
+			public const int mr_dialog_close_dark = 2130837782;
 			
 			// aapt resource value: 0x7f020117
-			public const int mr_button_light = 2130837783;
+			public const int mr_dialog_close_light = 2130837783;
 			
 			// aapt resource value: 0x7f020118
-			public const int mr_dialog_close_dark = 2130837784;
+			public const int mr_dialog_material_background_dark = 2130837784;
 			
 			// aapt resource value: 0x7f020119
-			public const int mr_dialog_close_light = 2130837785;
+			public const int mr_dialog_material_background_light = 2130837785;
 			
 			// aapt resource value: 0x7f02011a
-			public const int mr_dialog_material_background_dark = 2130837786;
+			public const int mr_group_collapse = 2130837786;
 			
 			// aapt resource value: 0x7f02011b
-			public const int mr_dialog_material_background_light = 2130837787;
+			public const int mr_group_expand = 2130837787;
 			
 			// aapt resource value: 0x7f02011c
-			public const int mr_group_collapse = 2130837788;
+			public const int mr_media_pause_dark = 2130837788;
 			
 			// aapt resource value: 0x7f02011d
-			public const int mr_group_expand = 2130837789;
+			public const int mr_media_pause_light = 2130837789;
 			
 			// aapt resource value: 0x7f02011e
-			public const int mr_media_pause_dark = 2130837790;
+			public const int mr_media_play_dark = 2130837790;
 			
 			// aapt resource value: 0x7f02011f
-			public const int mr_media_pause_light = 2130837791;
+			public const int mr_media_play_light = 2130837791;
 			
 			// aapt resource value: 0x7f020120
-			public const int mr_media_play_dark = 2130837792;
+			public const int mr_media_stop_dark = 2130837792;
 			
 			// aapt resource value: 0x7f020121
-			public const int mr_media_play_light = 2130837793;
+			public const int mr_media_stop_light = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int mr_media_stop_dark = 2130837794;
+			public const int mr_vol_type_audiotrack_dark = 2130837794;
 			
 			// aapt resource value: 0x7f020123
-			public const int mr_media_stop_light = 2130837795;
+			public const int mr_vol_type_audiotrack_light = 2130837795;
 			
 			// aapt resource value: 0x7f020124
-			public const int mr_vol_type_audiotrack_dark = 2130837796;
+			public const int navigation_empty_icon = 2130837796;
 			
 			// aapt resource value: 0x7f020125
-			public const int mr_vol_type_audiotrack_light = 2130837797;
+			public const int notification_action_background = 2130837797;
 			
 			// aapt resource value: 0x7f020126
-			public const int navigation_empty_icon = 2130837798;
+			public const int notification_bg = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int notification_action_background = 2130837799;
+			public const int notification_bg_low = 2130837799;
 			
 			// aapt resource value: 0x7f020128
-			public const int notification_bg = 2130837800;
+			public const int notification_bg_low_normal = 2130837800;
 			
 			// aapt resource value: 0x7f020129
-			public const int notification_bg_low = 2130837801;
+			public const int notification_bg_low_pressed = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int notification_bg_low_normal = 2130837802;
+			public const int notification_bg_normal = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int notification_bg_low_pressed = 2130837803;
+			public const int notification_bg_normal_pressed = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int notification_bg_normal = 2130837804;
-			
-			// aapt resource value: 0x7f02012d
-			public const int notification_bg_normal_pressed = 2130837805;
-			
-			// aapt resource value: 0x7f02012e
-			public const int notification_icon_background = 2130837806;
-			
-			// aapt resource value: 0x7f020136
-			public const int notification_template_icon_bg = 2130837814;
-			
-			// aapt resource value: 0x7f020137
-			public const int notification_template_icon_low_bg = 2130837815;
-			
-			// aapt resource value: 0x7f02012f
-			public const int notification_tile_bg = 2130837807;
-			
-			// aapt resource value: 0x7f020130
-			public const int notify_panel_notification_icon_bg = 2130837808;
+			public const int notification_icon_background = 2130837804;
 			
 			// aapt resource value: 0x7f020131
-			public const int sfprogressbar_determinate_linear = 2130837809;
+			public const int notification_template_icon_bg = 2130837809;
 			
 			// aapt resource value: 0x7f020132
-			public const int sfprogressbar_indeterminate_circular = 2130837810;
+			public const int notification_template_icon_low_bg = 2130837810;
 			
-			// aapt resource value: 0x7f020133
-			public const int sfprogressbar_indeterminate_linear = 2130837811;
+			// aapt resource value: 0x7f02012d
+			public const int notification_tile_bg = 2130837805;
 			
-			// aapt resource value: 0x7f020134
-			public const int tooltip_frame_dark = 2130837812;
+			// aapt resource value: 0x7f02012e
+			public const int notify_panel_notification_icon_bg = 2130837806;
 			
-			// aapt resource value: 0x7f020135
-			public const int tooltip_frame_light = 2130837813;
+			// aapt resource value: 0x7f02012f
+			public const int tooltip_frame_dark = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int tooltip_frame_light = 2130837808;
 			
 			static Drawable()
 			{
@@ -5379,15 +5216,6 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0a008e
 			public const int select_dialog_listview = 2131361934;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int sfprogressbar_progress = 2131362006;
-			
-			// aapt resource value: 0x7f0a00d5
-			public const int sfprogressbar_secondary_progress = 2131362005;
-			
-			// aapt resource value: 0x7f0a00d4
-			public const int sfprogressbar_track = 2131362004;
-			
 			// aapt resource value: 0x7f0a0078
 			public const int shortcut = 2131361912;
 			
@@ -5815,19 +5643,16 @@ namespace LorikeetMApp.Droid
 			public const int select_dialog_singlechoice_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int Spinner_item = 2130968641;
+			public const int support_simple_spinner_dropdown_item = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int support_simple_spinner_dropdown_item = 2130968642;
+			public const int Tabbar = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int Tabbar = 2130968643;
+			public const int Toolbar = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int Toolbar = 2130968644;
-			
-			// aapt resource value: 0x7f040045
-			public const int tooltip = 2130968645;
+			public const int tooltip = 2130968644;
 			
 			static Layout()
 			{
@@ -5864,11 +5689,14 @@ namespace LorikeetMApp.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0b003e
-			public const int ApplicationName = 2131427390;
-			
 			// aapt resource value: 0x7f0b003d
-			public const int Hello = 2131427389;
+			public const int ApplicationName = 2131427389;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int Hello = 2131427388;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int Load_More = 2131427390;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int abc_action_bar_home_description = 2131427349;
@@ -5966,8 +5794,8 @@ namespace LorikeetMApp.Droid
 			// aapt resource value: 0x7f0b0035
 			public const int character_counter_pattern = 2131427381;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int library_name = 2131427388;
+			// aapt resource value: 0x7f0b003f
+			public const int library_name = 2131427391;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int mr_button_content_description = 2131427328;
@@ -9042,112 +8870,6 @@ namespace LorikeetMApp.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
-			
-			public static int[] SfProgressBar = new int[] {
-					2130772353,
-					2130772354,
-					2130772355,
-					2130772356,
-					2130772357,
-					2130772358,
-					2130772359,
-					2130772360,
-					2130772361,
-					2130772362,
-					2130772363,
-					2130772364,
-					2130772365,
-					2130772366,
-					2130772367,
-					2130772368,
-					2130772369,
-					2130772370,
-					2130772371,
-					2130772372,
-					2130772373,
-					2130772374,
-					2130772375,
-					2130772376,
-					2130772377,
-					2130772378};
-			
-			// aapt resource value: 8
-			public const int SfProgressBar_animationDuration = 8;
-			
-			// aapt resource value: 18
-			public const int SfProgressBar_cornerRadius = 18;
-			
-			// aapt resource value: 20
-			public const int SfProgressBar_endAngle = 20;
-			
-			// aapt resource value: 14
-			public const int SfProgressBar_gapWidth = 14;
-			
-			// aapt resource value: 7
-			public const int SfProgressBar_indeterminateAnimationDuration = 7;
-			
-			// aapt resource value: 25
-			public const int SfProgressBar_indicatorInnerRadius = 25;
-			
-			// aapt resource value: 24
-			public const int SfProgressBar_indicatorOuterRadius = 24;
-			
-			// aapt resource value: 12
-			public const int SfProgressBar_indicatorPaddingBottom = 12;
-			
-			// aapt resource value: 9
-			public const int SfProgressBar_indicatorPaddingLeft = 9;
-			
-			// aapt resource value: 10
-			public const int SfProgressBar_indicatorPaddingRight = 10;
-			
-			// aapt resource value: 11
-			public const int SfProgressBar_indicatorPaddingTop = 11;
-			
-			// aapt resource value: 6
-			public const int SfProgressBar_isIndeterminate = 6;
-			
-			// aapt resource value: 5
-			public const int SfProgressBar_maximum = 5;
-			
-			// aapt resource value: 4
-			public const int SfProgressBar_minimum = 4;
-			
-			// aapt resource value: 0
-			public const int SfProgressBar_progress = 0;
-			
-			// aapt resource value: 1
-			public const int SfProgressBar_progressColor = 1;
-			
-			// aapt resource value: 17
-			public const int SfProgressBar_secondaryAnimationDuration = 17;
-			
-			// aapt resource value: 15
-			public const int SfProgressBar_secondaryProgress = 15;
-			
-			// aapt resource value: 16
-			public const int SfProgressBar_secondaryProgressColor = 16;
-			
-			// aapt resource value: 13
-			public const int SfProgressBar_segmentCount = 13;
-			
-			// aapt resource value: 21
-			public const int SfProgressBar_showProgressValue = 21;
-			
-			// aapt resource value: 19
-			public const int SfProgressBar_startAngle = 19;
-			
-			// aapt resource value: 2
-			public const int SfProgressBar_trackColor = 2;
-			
-			// aapt resource value: 3
-			public const int SfProgressBar_trackHeight = 3;
-			
-			// aapt resource value: 23
-			public const int SfProgressBar_trackInnerRadius = 23;
-			
-			// aapt resource value: 22
-			public const int SfProgressBar_trackOuterRadius = 22;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,

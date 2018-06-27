@@ -1,8 +1,6 @@
 ﻿using FormsPinView.iOS;
 using Foundation;
 using Syncfusion.ListView.XForms.iOS;
-using Syncfusion.SfBusyIndicator.XForms.iOS;
-using Syncfusion.XForms.iOS.ProgressBar;
 using UIKit;
 
 namespace LorikeetMApp.iOS
@@ -24,9 +22,10 @@ namespace LorikeetMApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
 
+            SfListViewRenderer.Init();
+
             PinItemViewRenderer.Init();
-			new SfBusyIndicatorRenderer();
-			SfListViewRenderer.Init();
+			
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

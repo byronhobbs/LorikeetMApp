@@ -1,23 +1,13 @@
 ﻿using Android.App;
 using Android.Content;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using System.Threading.Tasks;
-using System;
-using System.IO;
-using Android.Media;
-using Android.Graphics;
-using Xamarin.Forms;
 using FormsPinView.Droid;
-using LorikeetMApp.Models;
 using Plugin.Permissions;
 
 namespace LorikeetMApp.Droid
 {
-	[Activity(Label = "LorikeetMApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "LorikeetMApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         public static object Instance { get; internal set; }
