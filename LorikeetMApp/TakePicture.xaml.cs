@@ -13,7 +13,7 @@ namespace LorikeetMApp
 {
     public partial class TakePicture : ContentPage
     {
-        private int memberID = -1;
+        private string memberIDGUID = null;
         private string fileToUpload = string.Empty;
         private Queue<string> paths = new Queue<string>();
         private bool isBusy = false;
@@ -24,11 +24,11 @@ namespace LorikeetMApp
             InitializeComponent();
         }
 
-        public TakePicture(int memberID)
+        public TakePicture(String memberIDGUID)
         {
             InitializeComponent();
 
-            this.memberID = memberID;
+            this.memberIDGUID = memberIDGUID;
             memberManager = new Data.MemberManager(new Data.RestService());
 
             takePhoto.Clicked += async (sender, args) =>
@@ -47,7 +47,7 @@ namespace LorikeetMApp
                     PhotoSize = PhotoSize.MaxWidthHeight,
                     MaxWidthHeight = 1000,
                     DefaultCamera = CameraDevice.Front,
-                    Name = this.memberID + ".jpg"
+                    Name = this.memberIDGUID + ".jpg"
                 });
 
                 if (file == null)
@@ -59,7 +59,7 @@ namespace LorikeetMApp
                     return stream;
                 });
 
-                string fileToCopyTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberID + ".jpg");
+                string fileToCopyTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberIDGUID + ".jpg");
 
                 File.Copy(file.Path, fileToCopyTo, true);
 
@@ -90,7 +90,7 @@ namespace LorikeetMApp
                     return stream;
                 });
 
-                string fileToCopyTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberID + ".jpg");
+                string fileToCopyTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberIDGUID + ".jpg");
 
                 File.Copy(file.Path, fileToCopyTo, true);
 
@@ -127,17 +127,24 @@ namespace LorikeetMApp
 
             downloadPhoto.Clicked += async (sender, args) =>
             {
-                var fileToDownloadTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberID + ".jpg");
-
-                var worked = await memberManager.DownloadImageFileAsync(memberID + ".jpg", fileToDownloadTo);
-
-                if ((image != null) && worked.Equals("worked"))
+                try
                 {
-                    image.Source = ImageSource.FromFile(fileToDownloadTo);
+                    var fileToDownloadTo = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), memberIDGUID + ".jpg");
+
+                    var worked = await memberManager.DownloadImageFileAsync(memberIDGUID + ".jpg", fileToDownloadTo);
+
+                    if ((image != null) && worked.Equals("worked"))
+                    {
+                        image.Source = ImageSource.FromFile(fileToDownloadTo);
+                    }
+                    else
+                    {
+                        await DisplayAlert("File Download Error", worked, "Ok");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    await DisplayAlert("File Download Error", worked, "Ok");
+                    await DisplayAlert("File Download Error", ex.Message, "Ok");
                 }
             };
 

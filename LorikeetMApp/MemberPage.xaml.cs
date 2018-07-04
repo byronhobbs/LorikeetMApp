@@ -21,7 +21,7 @@ namespace LorikeetMApp
 
             member = (ModelsLinq.MemberSQLite)this.BindingContext;
 
-            var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), member.MemberId + ".jpg");
+            var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), member.PictureGUID + ".jpg");
             if (!File.Exists(filePath))
             {
 
@@ -40,7 +40,7 @@ namespace LorikeetMApp
 
         async void OnTakePictureClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TakePicture(member.MemberId));
+            await Navigation.PushAsync(new TakePicture(member.PictureGUID));
         }
     }
 }

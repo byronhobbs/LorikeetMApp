@@ -20,5 +20,6 @@ namespace LorikeetMApp.Models
         public string MobileNumber { get; set; }
         public string EmailAddress { get; set; }
         public DateTime? DateAltered { get; set; }
+        public string PictureGUID { get; set; }
     }
 }

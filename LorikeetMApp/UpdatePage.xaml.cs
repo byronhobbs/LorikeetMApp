@@ -90,6 +90,7 @@ namespace LorikeetMApp
                         modelToAdd.MobileNumber = item.MobileNumber;
                         modelToAdd.EmailAddress = item.EmailAddress;
                         modelToAdd.DateAltered = item.DateAltered;
+                        modelToAdd.PictureGUID = item.PictureGUID;
 
                         await database.SaveMemberItemAsync(modelToAdd);
                         count++;
@@ -120,6 +121,8 @@ namespace LorikeetMApp
 				}
 				else 
 				{
+                    activityIndicator.IsRunning = false;
+                    activityIndicator.IsVisible = false;
 					errorLabel.Text = "Error connecting to server...";
 					UpdateButton.IsVisible = true;
 				}

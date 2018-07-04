@@ -72,8 +72,9 @@ namespace LorikeetMApp.Data
 				var json = await client.GetStringAsync(Constants.MEMBER_URL);
 				Members = JsonConvert.DeserializeObject<List<Member>>(json);
 			}
-            catch
+            catch(Exception ex)
             {
+                Debug.WriteLine(ex.Message);
 				return null;
             }
             
@@ -123,6 +124,10 @@ namespace LorikeetMApp.Data
                     }
                 }
                 else return "Couldn't Download file";
+            }
+            catch (HttpRequestException)
+            {
+                return "Couldn't Find server, Check WiFi";
             }
             catch (WebException ex)
             {
